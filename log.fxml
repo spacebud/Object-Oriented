@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="305.0" prefHeight="305.0" prefWidth="458.0000999999975" styleClass="background" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafx_101.Controller">
+  <children>
+    <Text layoutX="198.0" layoutY="64.0" scaleX="1.9469371588231446" scaleY="1.812171028913404" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+      <font>
+        <Font size="23.0" />
+      </font>
+    </Text>
+    <AnchorPane id="AnchorPane" layoutX="73.0" layoutY="125.0" prefHeight="73.0" prefWidth="277.0" styleClass="background">
+      <children>
+        <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="0.0" spacing="5.0">
+          <children>
+            <Label text="Username:" />
+            <TextField id="ussername_text" prefWidth="200.0" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" layoutX="0.0" layoutY="34.0" spacing="8.0">
+          <children>
+            <Label text="Password:" />
+            <PasswordField prefWidth="200.0" />
+          </children>
+        </HBox>
+      </children>
+    </AnchorPane>
+    <HBox id="HBox" alignment="CENTER" layoutX="72.0" layoutY="198.0" prefHeight="32.0" prefWidth="183.0" spacing="30.0">
+      <children>
+        <Button fx:id="login_button_submit" onAction="#login_button_submit" text="Submit" />
+        <Button fx:id="login_button_cancel" onAction="#login_button_cancel" text="Cancel" />
+      </children>
+    </HBox>
+    <Text fx:id="actionTarget" layoutX="255.0" layoutY="213.0" scaleX="1.7637144524109054" scaleY="1.3834231711929494" styleClass="text" text="" x="20.0" y="20.0">
+      <font>
+        <Font size="6.0" />
+      </font>
+    </Text>
+    <Button fx:id="login_button_register" layoutX="379.0" layoutY="270.0" onAction="#login_button_register" text="Sign up" />
+  </children>
+  <stylesheets>
+    <URL value="@stef2.css" />
+  </stylesheets>
+</AnchorPane>
