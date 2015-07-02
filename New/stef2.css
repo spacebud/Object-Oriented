@@ -1,0 +1,14 @@
+.background {
+    -fx-background-color: #00CC99;
+}
+.button {
+    
+    -fx-background-color: #90b099;
+    -fx-text-fill: #F8F8F8;
+    -fx-font-weight: bold;
+}
+
+.text{
+    -fx-text-fill: #FF0000;
+    -fx-font-color: #00003f;
+}
